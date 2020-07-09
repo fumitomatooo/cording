@@ -1,0 +1,344 @@
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 1300px;
+  	text-align: center;
+}
+
+/*↓ヘッダー↓*/
+header {
+	height: 70px;
+	padding: 13px 30px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+}
+
+.header-left,.header-right {
+	margin-top: 10px;
+}
+
+.header-left {
+	float: left;
+	display: flex;
+}
+
+.header-left a {
+	margin-right: 30px;
+	color: black;
+}
+
+.header-right {
+	float: right;
+	margin-right: 50px;
+}
+
+.header-right a {
+	color: white;
+	background-color: rgba(320,80,80,.9);
+	padding: 8px 12px;
+	font-weight: bolder;
+	border-radius: 3px;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+}
+
+.logo-hidden {
+	display: none;
+}
+
+.drop-dwon {
+	display: none;
+}
+
+.drop-down-menu {
+	display: none;
+	z-index: 90;
+}
+
+.drop-down-menu li {
+	list-style: none;
+}
+
+.drop-down-menu li a {
+	color: black;
+	text-align: ;
+}
+
+.header-scroll {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.header-scroll a {
+	color: black;
+	font-weight: bolder;
+}
+
+/*↑ヘッダー↑*/
+
+/*↓top画面上↓*/
+.top-wrapper {
+	background-image: url('./top.jpg');
+	height: 600px;
+}
+
+.header-left ul li {
+	display: inline-block;
+}
+
+.top-form {
+	width: 450px;
+	height: 400px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 20%;
+	right: 5%;
+}
+
+.top-form-heading {
+	font-weight: bolder;
+} 
+
+.top-form h1 {
+	text-align: left;
+}
+
+.region {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+	border: 1px solid rgba(10,10,10,.2);
+	border-radius: 3px;
+}
+
+.room-type {
+	width: 53%;
+	float: left;
+	padding-right: 4%;
+	height: 40px;
+	border: 1px solid rgba(10,10,10,.2);
+	border-radius: 3px;
+}
+
+.people {
+	width: 43%;
+	float: right;
+	height: 40px;
+	border: 1px solid rgba(10,10,10,.2);
+	border-radius: 3px;
+}
+
+.start {
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	border: none;
+	background-color: rgba(320,80,80,.9);
+	color: white;
+	border-radius: 3px;
+	font-weight: bolder;
+}
+
+.top-heading {
+	color: white;
+	display: none;
+	font-weight: bolder;
+}
+/*↑top画面上↑*/
+
+/*↓bodyフォーム↓*/
+.body-form {
+	display: none;
+}
+
+.body-form-heding {
+	text-align: left;
+	font-weight: bolder;
+}
+/*↑bodyフォーム↑*/
+
+.item {
+	text-align: left;
+}
+
+.line {
+	border-bottom: 2px solid gray;
+	width: 6%;
+}
+
+.heading {
+	font-weight: bold;
+}
+
+.cheack {
+	font-size: 40px;
+	font-weight: ;
+}
+
+.step-a {
+	color: gray;
+}
+
+.denis-img {
+		width: 100%;
+		height: 100%;
+	}
+
+.denis-comment p {
+	color: gray;
+}
+
+.host-cheak {
+	color: black;
+	border: 2px solid black;
+	border-radius: 3px;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.rule-list {
+	/*list-style: none;*/
+}
+
+/*↓本文中の普通のaタグ↓*/
+.body-a {
+	color: gray;
+}
+
+.body-a:link, .body-a:visited, .body-a:hover, .body-a:active {
+  color: gray;
+}
+/*↑本文中の普通のaタグ↑*/
+
+.man-img {
+	width: 100%;
+	height: 100%;
+}
+
+.tessa-img {
+	width: 100%;
+	height: 100%;
+}
+
+.tessa-comment p {
+	color: gray;
+}
+
+.detail-img {
+	width: 320px;
+	height: 180px;
+	border-radius: 3px;
+}
+
+.detail-heading {
+	text-align: left;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.detail-item {
+	cursor: pointer;
+}
+
+.detail-item p {
+	margin-bottom: 0 ;
+}
+
+.bottom-wrapper {
+	background-image: url(./img6.jpg);
+	height: 450px;
+	position: relative;
+}
+
+.bottom-content h2 {
+	color: white;
+	font-size: 60px;
+	margin: 0;
+}
+
+.bottom-content a {
+	color: black;
+	background-color: white;
+	padding: 10px 14px;
+	border-radius: 3px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.footer-wrapper {
+	border-top: 1px solid rgba(10,10,10,.3);
+}
+
+.footer-list {
+	list-style: none;
+	margin-left: -40px;
+}
+
+.footer-list li a {
+	color: black;
+	font-size: 14px;
+}
+
+.footer-item {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-item p {
+	font-size: 13px;
+	font-weight: bolder;
+}
+
+.footer-info {
+	width: 90%;
+	border-top: 1px solid rgba(10,10,10,.3);
+	margin: 0 auto;
+	margin-bottom: 7%;
+}
+
+.footer-right {
+	float: left;
+	text-align: left;
+}
+
+.footer-left {
+	float: right;
+	display: flex;
+	width: 30%;
+}
+
+.footer-left p a {
+	color: black;
+}
+
+.footer-left p {
+	margin-left: 3%;
+}
+
+.footer-copyright,.footer-menu {
+	display: inline-block;
+}
+
+.permit-1 {
+	display: block;
+}
+
+.footer-permit span, .footer-menu a {
+	color: black;
+}
+
+
+
